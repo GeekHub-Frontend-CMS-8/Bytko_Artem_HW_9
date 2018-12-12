@@ -1,6 +1,7 @@
 @import "team-bio-block";
 
 .team-section {
+  text-align: center;
   background-image: url("../img/background_2.png");
   background-size: cover;
   .title-block_section-title {
@@ -13,10 +14,15 @@
     background-color: #f2f2f2;
   }
 }
-
+.team_button{
+  margin: 100px auto 0;
+}
 @media only screen and(max-width: 850px) {
   .team-section {
     padding: 50px 0;
+  }
+  .team_button{
+    margin: 50px auto 0;
   }
 }
 

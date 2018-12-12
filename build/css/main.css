@@ -527,6 +527,7 @@ a {
       flex-basis: 50%; } }
 
 .team-section {
+  text-align: center;
   background-image: url("../img/background_2.png");
   background-size: cover; }
   .team-section .title-block_section-title {
@@ -536,9 +537,14 @@ a {
   .team-section .title-block_desc:after {
     background-color: #f2f2f2; }
 
+.team_button {
+  margin: 100px auto 0; }
+
 @media only screen and (max-width: 850px) {
   .team-section {
-    padding: 50px 0; } }
+    padding: 50px 0; }
+  .team_button {
+    margin: 50px auto 0; } }
 
 .brand-section {
   padding: 50px 0;
@@ -740,3 +746,13 @@ a {
 
 .social_links-list {
   display: inline-flex; }
+
+@media only screen and (max-width: 650px) {
+  .footer {
+    padding: 30px 0; }
+    .footer .wrapper {
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap; }
+  .footer_logo-right-block {
+    margin-bottom: 20px; } }
