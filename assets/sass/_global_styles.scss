@@ -1,0 +1,65 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.general-title {
+  color: $light-color-text;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.general-subtitle {
+  color: $light-color-text;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.title-block {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.title-block_section-title {
+  margin-bottom: 15px;
+}
+
+.desc {
+  opacity: 0.8;
+  color: $dark-text-color;
+  font-family: "Open Sans", sans-serif;
+  font-size: $small-size;
+  font-weight: 400;
+}
+
+.section-title {
+  color: $dark-text-color;
+  font-family: "Open Sans - Extrabold", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.small-headline {
+  color: $dark-text-color;
+  font-size: $middle-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}

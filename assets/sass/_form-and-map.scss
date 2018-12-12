@@ -1,0 +1,30 @@
+@import "map";
+@import "form";
+
+.form-map-section {
+  padding: 0;
+  .wrapper {
+    max-width: 3000px;
+    padding: 0;
+  }
+}
+
+@media only screen and(max-width: 850px) {
+  .form-map-section {
+    padding: 50px 0 0;
+  }
+}
+
+.form-map-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+@media only screen and(max-width: 850px) {
+  .form-map-container {
+    flex-flow: row wrap;
+  }
+  .form, .map {
+    flex-basis: 100%;
+  }
+}

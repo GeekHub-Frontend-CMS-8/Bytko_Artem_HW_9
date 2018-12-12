@@ -1,0 +1,38 @@
+.button {
+  padding: 15px 25px;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0);
+  color: $light-color-text;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1, 1);
+  transition: .3s;
+  color: $dark-text-color;
+  background-color: #f2f2f2;
+}
+
+.button, .button:active, .button:focus {
+  outline: 0;
+}
+
+.links-button {
+  background-color: $dark-text-color;
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $middle-size;
+}
+
+.links-button:hover {
+  background-color: #4fc8de;
+}

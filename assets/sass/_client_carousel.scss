@@ -1,0 +1,80 @@
+.carousel_desc {
+  font-size: $middle-size;
+}
+
+.carousel-container {
+  position: relative;
+  text-align: center;
+}
+
+.quot-symbol {
+  display: inline-block;
+  margin: 20px 0 35px;
+  opacity: 0.5;
+  color: #2b3746;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.carousel_name {
+  margin: 15px 0 5px;
+}
+
+.carousel_slide-id {
+  margin-top: 30px;
+}
+
+.next, .prev {
+  position: absolute;
+  top: 50%;
+  padding: 15px;
+  color: $dark-text-color;
+  font-weight: 700;
+  font-size: 18px;
+  transition: .6s ease;
+  border-radius: 3px;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.next:hover, .prev:hover {
+  background-color: $dark-text-color;
+  color: $light-color-text;
+}
+
+.dot {
+  margin: 0 2px;
+  display: inline-block;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border: 1px solid $dark-text-color;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: $dark-text-color;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}

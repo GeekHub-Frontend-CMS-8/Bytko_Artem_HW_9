@@ -1,0 +1,22 @@
+@import "services-element";
+
+.services-section {
+  background-color: #f5f5f5;
+}
+
+@media only screen and(max-width: 850px) {
+  .services-section {
+    padding: 50px 0;
+  }
+}
+
+.title-block_desc:after {
+  display: block;
+  content: '';
+  width: 40px;
+  height: 2px;
+  background-color: $dark-text-color;
+  opacity: 0.8;
+  margin: 15px auto 0;
+}
+

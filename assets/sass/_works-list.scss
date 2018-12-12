@@ -1,0 +1,37 @@
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works-items {
+  position: relative;
+  width: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .works-items {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .works-items {
+    flex-basis: 33.3%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .works-items {
+    flex-basis: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .works-items {
+    flex-basis: 20%;
+  }
+}

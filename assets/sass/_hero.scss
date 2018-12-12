@@ -1,0 +1,72 @@
+@import "header";
+
+.hero-section {
+  padding: 0 0 100px;
+  background-image: url("../img/top-section-background.png");
+  background-size: cover;
+  text-align: center;
+}
+
+@media only screen and(max-width: 850px) {
+  .hero-section {
+    padding: 0 0 40px;
+  }
+}
+
+.general-title {
+  color: $light-color-text;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.hero_general-title {
+  margin-top: 170px;
+}
+
+.general-subtitle {
+  color: $light-color-text;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.hero_subtitle {
+  margin: 35px 0;
+}
+
+.hero_links-button {
+  margin: 145px auto 0;
+  max-width: 50px;
+  height: 50px;
+  font-size: 50px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  display: block;
+}
+
+.hero_links-button:hover {
+  background-color: #fff;
+  color: $dark-text-color;
+}
+
+.hero_links-button:after {
+  margin: auto;
+  content: '';
+  display: block;
+  height: 102px;
+  width: 1px;
+  background-color: $light-color-text;
+}
+
+@media only screen and(max-width: 850px) {
+  .hero_general-title {
+    margin-top: 40px;
+  }
+  .hero_links-button {
+    margin-top: 40px;
+  }
+  .hero_links-button:after {
+    height: 42px;
+  }
+}
+

@@ -1,0 +1,25 @@
+.footer {
+  padding: 50px 0;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer_logo-right-block {
+  display: flex;
+  align-items: center;
+  .logo {
+    margin-right: 30px;
+  }
+}
+
+.social-block {
+  .footer_desc {
+    margin-right: 20px;
+  }
+}
+
+.social_links-list {
+  display: inline-flex;
+}

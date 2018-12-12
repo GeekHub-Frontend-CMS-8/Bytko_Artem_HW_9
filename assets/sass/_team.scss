@@ -1,0 +1,25 @@
+@import "team-bio-block";
+
+.team-section {
+  background-image: url("../img/background_2.png");
+  background-size: cover;
+  .title-block_section-title {
+    color: #f2f2f2;
+  }
+  .title-block_desc {
+    color: #f2f2f2;
+  }
+  .title-block_desc:after {
+    background-color: #f2f2f2;
+  }
+}
+
+@media only screen and(max-width: 850px) {
+  .team-section {
+    padding: 50px 0;
+  }
+}
+
+
+
+
